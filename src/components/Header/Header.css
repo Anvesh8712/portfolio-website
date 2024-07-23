@@ -1,0 +1,63 @@
+.header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 35px;
+}
+
+.header img {
+  margin-top: 150px;
+  border-radius: 50%;
+}
+
+.header h1 {
+  text-align: center;
+  width: 70%;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.header h1 span {
+  background: linear-gradient(270deg, #df8908 10%, #b415ff 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.header p {
+  width: 50%;
+  text-align: center;
+  font-size: 24px;
+  line-height: 40px;
+}
+
+.header-action {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.header-connect {
+  padding: 25px 45px;
+  border-radius: 50px;
+  background: linear-gradient(264deg, #df8908 5.09%, #b415ff 106.28%);
+  cursor: pointer;
+}
+
+.header-resume {
+  padding: 25px 75px;
+  border-radius: 50px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.header-connect:hover {
+  border: 2px solid white;
+}
+
+.header-resume:hover {
+  border-color: #b415ff;
+}
