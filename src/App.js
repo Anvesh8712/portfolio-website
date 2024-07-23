@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
+import Work from "./components/Work/Work";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <NavBar />
       <Header />
       <About />
+      <Work />
     </div>
   );
 }
