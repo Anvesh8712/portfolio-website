@@ -1,10 +1,11 @@
 import React from "react";
 import "./Header.css";
 import profile_pic from "../../assets/profile_pic.jfif";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Header = () => {
   return (
-    <div className="header">
+    <div className="header" id="home">
       <img src={profile_pic} alt="Profile"></img>
       <h1>
         <span>I'm Anvesh Sunkara, </span>
@@ -15,7 +16,11 @@ const Header = () => {
         responsive design and performance.
       </p>
       <div className="header-action">
-        <div className="header-connect">Connect With Me</div>
+        <div className="header-connect">
+          <AnchorLink className="anchor-link" offset={50} href="#contact">
+            Connect With Me
+          </AnchorLink>
+        </div>
         <div className="header-resume">My Resume</div>
       </div>
     </div>

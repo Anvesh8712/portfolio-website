@@ -1,0 +1,16 @@
+.footer-logo {
+  width: 220px;
+  height: auto;
+}
+
+.footer {
+  margin: 50px 170px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-between;
+}
