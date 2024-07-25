@@ -9,10 +9,7 @@ const Services_Data = [
   {
     s_no: "02",
     s_name: "NLP Model Development for Stock Price Prediction",
-    s_desc: `• Engineered and evaluated a diverse range of NLP/ML models specifically for predicting stock price fluctuations based on financial
- articles. Applied Naive Bayes for initial tag predictions, Logistic Regression for deeper statistical analysis, CNNs for sequential
- data processing, and leveraged the BERT attention model to refine sentiment analysis, collectively enhancing prediction accuracy
- and market insights.
+    s_desc: `• Engineered and evaluated a diverse range of NLP/ML models specifically for predicting stock price fluctuations based on financial articles. Applied Naive Bayes for initial tag predictions, Logistic Regression for deeper statistical analysis, CNNs for sequential data processing, and leveraged the BERT attention model to refine sentiment analysis, collectively enhancing prediction accuracy and market insights.
  \n• Implemented a custom web scraper to gather financial articles from Benzinga and integrated Yahoo Finance API for real-time
  stock price data to train and validate the models.`,
   },

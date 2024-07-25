@@ -21,7 +21,13 @@ const Header = () => {
             Connect With Me
           </AnchorLink>
         </div>
-        <div className="header-resume">My Resume</div>
+        <a
+          href="/Sunkara_Anvesh (2).pdf"
+          download="Sunkara_Anvesh.pdf"
+          className="anchor-link"
+        >
+          <div className="header-resume">My Resume</div>
+        </a>
       </div>
     </div>
   );
