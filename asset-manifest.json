@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ea330dc6.css",
+    "main.js": "/static/js/main.2f0629c3.js",
+    "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
+    "static/media/profile_picture.jpg": "/static/media/profile_picture.4ad77f3da73bfab7f87d.jpg",
+    "static/media/anvesh-high-resolution-logo.png": "/static/media/anvesh-high-resolution-logo.3fe23e3696b9a1f43621.png",
+    "static/media/github.png": "/static/media/github.44eee0c4a6c25b0d7347.png",
+    "static/media/social.png": "/static/media/social.2ffaea914e8a62b84275.png",
+    "static/media/profile_pic.jfif": "/static/media/profile_pic.d738add4069aa0041462.jfif",
+    "static/media/mail_icon.svg": "/static/media/mail_icon.9eae5516c8c1364a170e8b13ae4c18cf.svg",
+    "index.html": "/index.html",
+    "static/media/nav_underline.svg": "/static/media/nav_underline.c56cde277213bbba5816c05ee4d24f73.svg",
+    "static/media/theme_pattern.svg": "/static/media/theme_pattern.92278b3dbc4b903482e1d44b040aa98f.svg",
+    "static/media/arrow_icon.svg": "/static/media/arrow_icon.866a8d83b9723eed11e169d98d66ebc7.svg",
+    "main.ea330dc6.css.map": "/static/css/main.ea330dc6.css.map",
+    "main.2f0629c3.js.map": "/static/js/main.2f0629c3.js.map",
+    "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea330dc6.css",
+    "static/js/main.2f0629c3.js"
+  ]
+}
