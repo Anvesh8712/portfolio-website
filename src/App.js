@@ -1,4 +1,7 @@
 import "./App.css";
+
+import ReactGA from "react-ga4";
+
 import NavBar from "./components/Navbar/NavBar";
 import Header from "./components/Header/Header";
 import About from "./components/About/About";
@@ -8,6 +11,14 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 
 function App() {
+  ReactGA.initialize("G-123EGMSB6Y");
+
+  ReactGA.send({
+    hitType: "pageview",
+    page: "/",
+    title: "Home",
+  });
+
   return (
     <div>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
