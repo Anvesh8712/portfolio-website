@@ -15,13 +15,20 @@ const Projects = () => {
         {Services_Data.map((service, index) => {
           return (
             <div key={index} className="projects-format">
-              <h3>{service.s_no}</h3>
-              <h2>{service.s_name}</h2>
-              <p>{service.s_desc}</p>
-              <div className="projects-code">
-                <p>See Github</p>
-                <img src={Array_icon} alt="arrow" />
-              </div>
+              <a
+                href={service.s_link}
+                className="anchor-link"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <h3>{service.s_no}</h3>
+                <h2>{service.s_name}</h2>
+                <p>{service.s_desc}</p>
+                <div className="projects-code">
+                  <p>See Github</p>
+                  <img src={Array_icon} alt="arrow" />
+                </div>
+              </a>
             </div>
           );
         })}

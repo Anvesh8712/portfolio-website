@@ -78,3 +78,8 @@
   transform: scale(1.05);
   transition: 0.4s;
 }
+
+.anchor-link {
+  text-decoration: none;
+  color: white;
+}

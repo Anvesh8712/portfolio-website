@@ -50,15 +50,31 @@ const Contact = () => {
           <div className="contact-details">
             <div className="contact-detail">
               <img src={mail_icon} alt="" />
-              <p>atvanvesh@gmail.com</p>
+              <a href="mailto:atvanvesh@gmail.com" className="anchor-link">
+                <p>atvanvesh@gmail.com</p>
+              </a>
             </div>
             <div className="contact-detail">
               <img src={linkedin_icon} alt="" className="linkedin-img" />
-              <p>heres my linkedin</p>
+              <a
+                className="anchor-link"
+                href="https://www.linkedin.com/in/anveshsunkara"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>My linkedin</p>
+              </a>
             </div>
             <div className="contact-detail">
               <img src={github_icon} alt="" className="github-img" />
-              <p>heres my github</p>
+              <a
+                className="anchor-link"
+                href="https://github.com/Anvesh8712"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <p>My github</p>
+              </a>
             </div>
           </div>
         </div>
