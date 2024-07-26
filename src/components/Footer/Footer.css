@@ -10,7 +10,8 @@
   gap: 30px;
 }
 
-.footer-top {
-  display: flex;
-  justify-content: space-between;
+@media (max-width: 768px) {
+  .footer {
+    margin: 50px 70px;
+  }
 }

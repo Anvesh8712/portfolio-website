@@ -76,3 +76,49 @@
   border-radius: 50px;
   background: linear-gradient(264deg, #df8909 -5.09%, #b415ff 106.28%);
 }
+
+@media (max-width: 768px) {
+  .about {
+    gap: 80px;
+    margin: 50px 70px 50px 70px; /* Adjusted margin */
+    align-items: start;
+    padding-top: 80px; /* Added padding-top */
+    height: auto; /* Adjusted height to auto */
+  }
+  .about-title h1 {
+    font-size: 50px;
+    padding: 0px;
+  }
+
+  .about-title img {
+    width: 130px;
+    right: -20px;
+  }
+
+  .about-section {
+    flex-direction: column;
+  }
+
+  .about-left {
+    display: none;
+  }
+
+  .about-para {
+    font-size: 18px;
+    line-height: 32px;
+  }
+
+  .about-skill {
+    gap: 20px;
+    align-items: center;
+  }
+
+  .about-skill p {
+    font-size: 20px;
+    min-width: 245px;
+  }
+
+  .about-skill hr {
+    height: 6px;
+  }
+}

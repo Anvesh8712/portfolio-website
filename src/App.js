@@ -27,10 +27,8 @@ function App() {
         href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap"
         rel="stylesheet"
       />
-      <div className="top">
-        <NavBar />
-        <Header />
-      </div>
+      <NavBar />
+      <Header />
       <About />
       <Work />
       <Projects />
