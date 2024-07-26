@@ -22,7 +22,7 @@ const Header = () => {
           </AnchorLink>
         </div>
         <a
-          href="/Sunkara_Anvesh.pdf"
+          href="public/Sunkara_Anvesh.pdf"
           download="Sunkara_Anvesh.pdf"
           className="anchor-link"
         >
