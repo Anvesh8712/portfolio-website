@@ -13,6 +13,7 @@ const Projects = () => {
       </div>
       <div className="project-container">
         {Services_Data.map((service, index) => {
+          const isGitHubLink = service.s_link.includes("github.com");
           return (
             <div key={index} className="projects-format">
               <a
@@ -25,7 +26,7 @@ const Projects = () => {
                 <h2>{service.s_name}</h2>
                 <p>{service.s_desc}</p>
                 <div className="projects-code">
-                  <p>See Github</p>
+                  <p>{isGitHubLink ? "See GitHub" : "Visit App"}</p>
                   <img src={Array_icon} alt="arrow" />
                 </div>
               </a>
