@@ -21,15 +21,16 @@ const Services_Data = [
  \n• Created wireframes and mockups on Figma to guide the development process, ensuring the final product was both aesthetically pleasing and functionally robust, with a focus on cross-browser compatibility.`,
     s_link: "https://github.com/Anvesh8712/spotify-tinder",
   },
-  {
+ {
     s_no: "04",
     s_name: "AI Inventory Tracker With Gemini API",
     s_desc: `• Developed an inventory tracking application with user authentication and personalized inventory management.
  \n• Integrated with Firebase for authentication and Firestore for database management.
+ \n• Utilized the Gemini API to suggest recipes based on the items available in the user's pantry, enhancing the app's functionality and user experience.
  \n• Deployed on Vercel for seamless and scalable hosting.`,
+ 
     s_link: "https://inventory-app-three-pink.vercel.app/",
     d_link: "https://github.com/Anvesh8712/inventory-app",
   },
-];
 
 export default Services_Data;
